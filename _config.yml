@@ -1,11 +1,11 @@
 # Site settings
 author: Matthew McCormack
-title: 
+title: Matt McCormack
 header-img: img/home-bg.png
 email: mmccormack1182@gmail.com
 copyright_name: Matthew McCormack
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  mlmccor
