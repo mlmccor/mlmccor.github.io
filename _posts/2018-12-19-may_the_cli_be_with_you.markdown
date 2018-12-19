@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "May the CLI Be With You"
-date:       2018-12-19 19:25:08 +0000
+date:       2018-12-19 14:25:09 -0500
 permalink:  may_the_cli_be_with_you
 ---
 
@@ -16,4 +16,4 @@ I then focused on extracting the data. Since I used a public API, I was able to 
 
 After that, it was just managing data. I created CLI , API (instead of a scraper class), Character, Planet, Film, and Species class files, and used those to manage all the data.
 
-My biggest issue while writing this program was overcoming certain formatting decisions of the source API. Instead of using the names of certain values (like a character's species or homeworld) the API instead placed a link to the full page of info for that value. My initial prototype redrew data from the API for each character, similar to the Music CLI, but that the program forced "scrape" 4 for times for each of the 87 characters (for the character, homeworld, list of films, and species). This program take a full 4 minutes at the least to start up (I think it took 10 during a Zoom call). I was urged by my technical coach to refactor it so that I drew all the data from the indexes of each of my classes to create my objects right at the beginning, then make the associations needed when the characters are created. This took it from 348 draws from the API to 25, speeding up my program a lot.
+My biggest issue while writing this program was overcoming certain formatting decisions of the source API. Instead of using the names of certain values (like a character's species or homeworld) the API instead placed a link to the full page of info for that value. My initial prototype redrew data from the API for each character, similar to the Music CLI, but that the program forced "scrape" 4 for times for each of the 87 characters (for the character, homeworld, list of films, and species). This program took a full 4 minutes at least to start up (I think it took 10 during a Zoom call). I was urged by my technical coach to refactor it so that I drew all the data from the indexes of each of my classes to create my objects right at the beginning, then make the associations needed when the characters are created. This took it from 348 draws from the API to 25, speeding up my program a lot.
