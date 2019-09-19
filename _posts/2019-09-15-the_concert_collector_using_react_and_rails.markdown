@@ -1,16 +1,16 @@
 ---
 layout: post
 title:      "The Concert Collector, using React and Rails"
-date:       2019-09-16 01:03:27 +0000
+date:       2019-09-15 21:03:28 -0400
 permalink:  the_concert_collector_using_react_and_rails
 ---
 
 
-The *Concert Collector* is an a web application made to assist any avid concert concert attendee track the tours of their favorite artist and musical groups. The app allows a user to track up to date concert dates for their favorite artists and refine their collection to reflect their real calendar of concerts they intend to attend. Now, instead of poring through the user's music collection to remember their expanding list of favorite artists, looking for all of their tour dates, and copying any dates they have the possibility of attending, they can just visit this one app, search each artist one time, then be able to refine their summer concert list with a couple clicks.
+The *Concert Collector* is an a web application made to assist any avid concert attendee track the tours of their favorite artist and musical groups. The app allows a user to track up to date concert dates for their favorite artists and refine their collection to reflect their real calendar of concerts they intend to attend. Now, instead of combing through the user's music collection to remember their expanding list of favorite artists, looking for all of their tour dates, and copying any dates they have the possibility of attending, they can just visit this one app, search each artist one time, then be able to refine their summer concert list with a couple clicks.
 
 **Sign Up**
 
-Using the Devise Gem, I created two Rails views the app loads first, prompting the user to sign up or Login before they can have access to the main app.
+Using the Devise Gem, I created two Rails views the app loads first, prompting the user to sign up or login before they can have access to the main app.
 
 **Searching an Artist and its concerts** 
 
